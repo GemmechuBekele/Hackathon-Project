@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <header>
+        <!-- <h1>Welcome to My Portfolio</h1> -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="about" id="about">
+        <div class="about_detail">
+            <h2>About Me</h2>
+            <h4> I am a Software Engineer</h4>
+            <p>Hi, I'm Gemmechu, As a passionate software engineer with over 1 years of experience in building innovative applications, I thrive in creating solutions that enhance user experience and drive business success. Proficient in JavaScript, Python, with extensive experience in frameworks such as React, Nodejs, and Django.
+
+            In my role at Colleges and Bootcamp, I led a team of developers to design and implement a scalable projects. Additionally, I have a strong background in developing RESTful APIs, which have been instrumental in improving system efficiency and performance.
+
+            My dedication to quality and continuous improvement has earned me the Award for Excellence in Software Development. One of my proudest achievements is developing a logical thinking solution to the problems.
+
+            Passionate about continuous learning and staying updated with the latest industry trends, I am currently exploring advancements in artificial intelligence and blockchain technology. I believe in the power of technology to transform businesses and improve lives.
+
+            Feel free to connect with me to discuss innovative tech solutions, collaboration opportunities, or just to share insights about the latest in software development. Let's build the future of technology together!</p>
+            <div class="btn_detail">
+                <a href="cv.pdf" download class="btn_cv">Download CV</a>
+                <div class="social">
+                    <a href="https://github.com/GemmechuBekele"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/gemmechubekele/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills_details">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (NodeJs, React)</li>
+                <li>Python (Django)</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="eduacation_details">
+            <h2>Educational Background</h2>
+            <h4>Addis Ababa University, Ethiopia </h4>
+            <h4>Hilcoe School of Computer Science and Technology, Ethiopia </h4> 
+            <h4>ALX Africa, Ethiopia</h4> 
+            <h4>PLP Academy, Kenya</h4>
+            <p>Bachelor of Science in Software Engineering, Bioengineering</p>
+            <p>ALX Software Engineering</p>
+            <p>PLP Software Development</p>
+            <a href="https://drive.google.com/file/d/1G2UdVUt-DXUBaEmHJ8fDQ-gucM5DG3U2/view?usp=drive_link" download>Download Google Drive CV</a> <br><br>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects_details">
+            <h2>Projects</h2>
+            <ol>
+                <li><a href="https://github.com/GemmechuBekele/Basic-Calculator"><img src="Basic calc.jpg" alt="Basic-Calculator" ></a> </li>
+                <li><a href="https://github.com/GemmechuBekele/password-generator"><img src="password generator.png" alt="password-generator"></a> </li>
+            </ol>    
+            <p>A simple and basic calculator that performs fundamental arithmetic operations: addition, subtraction, multiplication, and division. It takes user input, processes the calculations, and displays the result efficiently. </p>    
+            <p>The Password Generator is a simple yet powerful tool designed to create secure, random passwords to enhance online security. The program allows users to generate passwords that include a mix of uppercase and lowercase letters, numbers, and special symbols.
+              This project is built using Python and utilizes the random module to ensure unpredictability in the generated passwords. Users can customize the length of their passwords based on their security needs.</p>
+
+                <p>Key Features:</p>
+                <ul>
+                    <li> Generates strong, random passwords.</li>
+
+                    <li> Includes letters (both uppercase and lowercase), numbers, and symbols.</li>
+
+                    <li> Allows users to specify the desired password length.</li>
+
+                    <li> Lightweight and easy to use.</li>
+                </ul>
+                <br>
+
+                </p>
+            
+         </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact_deatails">
+            <h2>Contact Me</h2>
+            <form action="submit_form.py" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gemmechu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
